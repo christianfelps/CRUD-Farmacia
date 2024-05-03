@@ -13,6 +13,6 @@ export class Categoria{
    
 
     @OneToMany(() => Produto, (produto) => produto.categoria)
-    produto: Produto[]
+    produto: Produto[];
 
 }
